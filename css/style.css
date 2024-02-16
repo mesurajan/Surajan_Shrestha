@@ -18,6 +18,10 @@ body {
   color: #4d4d4d;
   background: #fff;
 }
+.timeline-body .surajan-edit {
+  text-align: left;
+}
+
 
 #page {
   position: relative;

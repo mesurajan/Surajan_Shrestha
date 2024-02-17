@@ -1017,7 +1017,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   -o-box-shadow: none;
-  box-shadow: none;
+  box-shadow: 10px 10px 10px black;
   border: none;
   border: 2px solid rgba(0, 0, 0, 0.1);
   font-size: 18px;
@@ -1132,6 +1132,7 @@ input[type="text"] {
   background: #FF9000;
   color: #fff;
 }
+
 
 .btn-success {
   background: #5cb85c;
@@ -1278,6 +1279,32 @@ input[type="text"] {
 .col-padding {
   padding: 6px !important;
   margin: 0px !important;
+}
+
+.col-md-12:hover,
+.col-md-6:hover{
+  box-shadow:10px 10px 10px black;
+ border-radius: 10px;
+
+}
+.col-md-12,
+.col-md-6{
+  
+ border-radius: 10px;
+
+}
+.xyz12:hover {
+  opacity: 0; /* Initially hide the header */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Fade in to full opacity */
+  }
 }
 
 .fh5co-loader {
